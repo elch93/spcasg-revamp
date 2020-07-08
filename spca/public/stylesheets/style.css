@@ -1,0 +1,22 @@
+/* 
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    orange: #FCA311;
+    plat: #E5E5E5;
+    white: #FFFFFF;
+    black: #000000;
+    oxford blue: #14213D;
+*/
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: #E5E5E5;
+}
+
+a, a:hover {
+  color: #000000;
+  text-decoration: none;
+}
