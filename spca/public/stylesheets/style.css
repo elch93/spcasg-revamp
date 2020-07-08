@@ -1,22 +1,105 @@
 /* 
-    font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
     orange: #FCA311;
     plat: #E5E5E5;
     white: #FFFFFF;
     black: #000000;
     oxford blue: #14213D;
+    yellow: #E5BA28;
 */
 
 body {
   padding: 0px;
   margin: 0px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  background-color: #E5E5E5;
+  background-color: #FFFFFF;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 a, a:hover {
   color: #000000;
   text-decoration: none;
+}
+
+.rbor {
+  border: 1px red solid;
+}
+
+
+
+/* header */
+header {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 0px;
+}
+
+#heropage, #supportpage {
+  height: 650px;
+}
+
+#adoptpage, #servicepage {
+  height: 900px;
+}
+
+.myheader, .subheader {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.myheader {
+  letter-spacing: 4px;
+}
+
+.subheader {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* contact page */
+#contactpage {
+  background-color: #E5BA28;
+}
+
+#contactpage form {
+  margin: 40px 0px;
+  width: 500px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#contactpage textarea {
+  width: 100%;
+  margin: 10px 0px;
+  height: 140px;
+}
+
+#contactpage label {
+  font-weight: bold;
+  margin: 5px 0px;
+}
+
+#contactpage input {
+  width: 350px;
+}
+
+#contactpage button {
+  border: none;
+  border-radius: 40px;
+  font-weight: 700;
+}
+
+.blkbg {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 15px 55px;
+}
+
+.greybg {
+  background-color: #AAAAAA;
+  color: #FFFFFF;
+  padding: 5px 25px !important;
+  height: 40px;
 }
