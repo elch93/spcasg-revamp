@@ -13,13 +13,14 @@ body,html {
   padding: 0px;
   margin: 0px;
   background-color: #FFFFFF;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
 
 a, a:hover {
   color: #000000;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .rbor {
@@ -38,7 +39,7 @@ header {
   height: 650px;
 }
 
-#adoptpage, #servicepage {
+#servicepage {
   height: 900px;
 }
 
@@ -47,11 +48,12 @@ header {
   font-size: 25px;
   text-align: center;
   margin-top: 20px;
-  text-transform: uppercase;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .myheader {
-  letter-spacing: 2.5px;
+  letter-spacing: 2.3px;
+  text-transform: uppercase;
 }
 
 .subheader {
@@ -59,9 +61,50 @@ header {
   font-size: 18px;
 }
 
+/* adopt page */
+#adoptpage span {
+  font-weight: 700;
+}
+
+.stepno {
+  font-size: 30px;
+  margin: 0 0 0px 5px;
+}
+
+.stepline {
+  border-top: 5px solid #000000;
+  width: 80px;
+  margin: -20px 0 20px 0;
+}
+
+#stepone, #steptwo, #stepthree {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  background-position: center;
+  border: 10px solid #E5BA28;
+}
+
+#stepone {
+  background-image: url('/images/stepone.jpg');
+}
+
+#steptwo {
+  background-image: url('/images/steptwo.jpg');
+}
+
+#stepthree {
+  background-image: url('/images/stepthree.jpg');
+}
+
+/* service page */
+#servicepage {
+  background-color: #E5BA28;
+}
+
+
 /* support page */
 #supportpage {
-  background-color: #E5E5E5;
   padding: 30px 0px;
 }
 
@@ -133,4 +176,34 @@ header {
   color: #FFFFFF;
   padding: 5px 25px !important;
   height: 40px;
+}
+
+/* footer */
+footer {
+  background-color: #000000;
+  color: #AAAAAA;
+}
+
+footer h5 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+footer h6 {
+  text-transform: capitalize;
+}
+
+footer p.mt-5 {
+  font-size: 12px;
+}
+
+footer i {
+  margin: 20px 20px;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+footer a {
+  text-transform: uppercase;
+  margin: 0 40px 20px 40px;
 }
