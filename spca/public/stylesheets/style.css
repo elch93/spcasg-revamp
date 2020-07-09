@@ -9,11 +9,12 @@
     yellow: #E5BA28;
 */
 
-body {
+body,html {
   padding: 0px;
   margin: 0px;
   background-color: #FFFFFF;
   font-family: 'Noto Sans JP', sans-serif;
+  scroll-behavior: smooth;
 }
 
 a, a:hover {
@@ -31,10 +32,9 @@ a, a:hover {
 header {
   font-weight: 700;
   font-size: 20px;
-  padding: 15px 0px;
 }
 
-#heropage, #supportpage {
+#heropage {
   height: 650px;
 }
 
@@ -43,7 +43,7 @@ header {
 }
 
 .myheader, .subheader {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 25px;
   text-align: center;
   margin-top: 20px;
@@ -51,12 +51,39 @@ header {
 }
 
 .myheader {
-  letter-spacing: 4px;
+  letter-spacing: 2.5px;
 }
 
 .subheader {
   font-weight: 500;
   font-size: 18px;
+}
+
+/* support page */
+#supportpage {
+  background-color: #E5E5E5;
+  padding: 30px 0px;
+}
+
+#supportpage img {
+  height: 300px;
+  margin: 40px 0px;
+}
+
+#supportpage h6 {
+  border: none;
+  border-radius: 40px;
+  font-weight: 700;
+  padding: 15px 55px;
+}
+
+#supportpage div:nth-child(3) h6{
+  background-color: #E5BA28;
+}
+
+#supportpage div:nth-child(4) h6{
+  background-color: #14213D;
+  color: #FFFFFF;
 }
 
 /* contact page */
@@ -82,13 +109,17 @@ header {
 }
 
 #contactpage input {
-  width: 350px;
+  width: 360px;
 }
 
 #contactpage button {
   border: none;
   border-radius: 40px;
   font-weight: 700;
+}
+
+#contactpage sup {
+  color: #FF0000;
 }
 
 .blkbg {
