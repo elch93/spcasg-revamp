@@ -39,10 +39,6 @@ header {
   height: 650px;
 }
 
-#servicepage {
-  height: 900px;
-}
-
 .myheader, .subheader {
   font-weight: 900;
   font-size: 25px;
@@ -54,6 +50,7 @@ header {
 .myheader {
   letter-spacing: 2.3px;
   text-transform: uppercase;
+  font-size: 30px;
 }
 
 .subheader {
@@ -64,15 +61,17 @@ header {
 /* adopt page */
 #adoptpage span {
   font-weight: 700;
+  font-size: 22px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
-.stepno {
+#adoptpage .stepno {
   font-size: 30px;
-  margin: 0 0 0px 5px;
+  margin: 0 0 0px 10px;
 }
 
 .stepline {
-  border-top: 5px solid #000000;
+  border-top: 4px solid #E5BA28;
   width: 80px;
   margin: -20px 0 20px 0;
 }
@@ -102,10 +101,38 @@ header {
   background-color: #E5BA28;
 }
 
+#servicepage h4 {
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+#servicepage p {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+#servicepage span {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #14213D;
+  color: #FFFFFF !important;
+}
+
+#servicepage a {
+  color: #FFFFFF !important;
+}
+
+#servicepage img {
+  height: 300px;
+  width: 450px;
+  border: 10px solid #14213D;
+  border-radius: 10px;
+}
 
 /* support page */
 #supportpage {
-  padding: 30px 0px;
+  padding: 0 0 30px 0px;
+  
 }
 
 #supportpage img {
