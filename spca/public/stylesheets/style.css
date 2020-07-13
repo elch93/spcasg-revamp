@@ -15,6 +15,7 @@ body,html {
   background-color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a, a:hover {
@@ -27,16 +28,16 @@ a, a:hover {
   border: 1px red solid;
 }
 
-
-
 /* header */
 header {
   font-weight: 700;
   font-size: 20px;
-}
-
-#heropage {
-  height: 650px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 99;
+  background-color: #FFFFFF;
 }
 
 .myheader, .subheader {
@@ -58,6 +59,45 @@ header {
   font-size: 18px;
 }
 
+/* hero image */
+#heropage {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+#heropage .row {
+  height: 100%;
+}
+
+#heropage img {
+  height: 650px;
+}
+
+#heropage h1 {
+  position: relative;
+  top: 200px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+#heropage p {
+  position: relative;
+  top: 200px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+#heropage a {
+  position: relative;
+  top: 240px;
+  font-weight: 500;
+  border: none;
+  border-radius: 40px;
+  font-weight: 700;
+  padding: 15px 20px;
+  background-color: #E5BA28;
+  color: #FFFFFF;
+}
 /* adopt page */
 #adoptpage span {
   font-weight: 700;
@@ -132,12 +172,11 @@ header {
 /* support page */
 #supportpage {
   padding: 0 0 30px 0px;
-  
 }
 
 #supportpage img {
   height: 300px;
-  margin: 40px 0px;
+  margin: 20px 0px;
 }
 
 #supportpage h6 {
@@ -162,7 +201,6 @@ header {
 }
 
 #contactpage form {
-  margin: 40px 0px;
   width: 500px;
   font-family: 'Roboto', sans-serif;
 }
